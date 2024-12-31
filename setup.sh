@@ -7,7 +7,7 @@ VM_MEMORY=2048            # Memory in MB
 VM_DISK_SIZE=10G          # Disk size
 VM_CORES=2                # Number of CPU cores
 VM_BRIDGE="vmbr0"         # Network bridge
-VM_OS_TEMPLATE="local:vztmpl/debian-12-standard_12.0-1_amd64.tar.zst"  # Adjust as needed
+VM_OS_TEMPLATE="local:vztmpl/debian-12-standard_12.7-1_amd64.tar.zst"  # Adjust as needed
 VM_STORAGE="local-lvm"    # Storage location
 
 echo "Starting diyHue setup on Proxmox..."
